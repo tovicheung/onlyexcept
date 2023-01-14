@@ -1,7 +1,11 @@
 # onlyexcept
 Want to only catch a specific type of exception, and not its subclasses? Use `onlyexcept`!
 
-## Normal
+## Installation
+`pip install onlyexcept`
+
+## Usage
+Normal
 ```py
 try:
     raise ValueError
@@ -10,7 +14,7 @@ except Exception:
 # ValueError will be caught as it is a subclass of Exception
 ```
 
-## onlyexcept
+Using onlyexcept
 ```py
 from onlyexcept import Only
 try:
