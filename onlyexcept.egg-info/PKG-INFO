@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: onlyexcept
+Version: 0.0.1
+Summary: catch only a specific type of exception
+Author: tovicheung
+License-File: license.txt
